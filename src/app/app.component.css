@@ -1,0 +1,15 @@
+body{
+    width: 100vw;
+    background-color: #2E4F4F;
+}
+main{
+    width: 95%;
+    margin: auto;
+}
+#tableSection{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}

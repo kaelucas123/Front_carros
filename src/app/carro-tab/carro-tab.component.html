@@ -1,0 +1,17 @@
+<body>
+  <table>
+    <tr id="tabTitles">
+      <td>Nome</td>
+      <td>Marca</td>
+      <td>Ano</td>
+      <td><button id="deleteButton" *ngIf="hasCarrosSelecionados()" (click)="deletar()"></button></td>
+    </tr>
+
+    <tr *ngFor="let carro of carros">
+      <td>{{carro.nome }}</td>
+      <td>{{carro.marca }}</td>
+      <td>{{carro.ano}}</td>
+      <td class="tdDelete"><input type="checkbox" (change)="selecionarCarro(carro.id)"></td>
+    </tr>
+  </table>
+</body>

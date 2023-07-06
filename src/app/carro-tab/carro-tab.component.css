@@ -1,0 +1,32 @@
+body{
+    width: 50em;
+    background-color: aqua;
+    height: auto;
+}
+
+td{
+    height: 30px;
+    text-align: center;
+}
+
+.tdDelete{
+    width: 30px;
+    justify-content: space-around;
+}
+#deleteButton{
+    width: 20px;
+    height: 20px;
+    background-color: #EEEEEE;
+}
+#tabTitles{
+    font-weight: bold;
+    background-color: #070D0D;
+    color: #EEEEEE;
+}
+#tabTitles td{
+    height: 40px;
+}
+table{
+    border-collapse:collapse;
+    width: 100%;
+}
